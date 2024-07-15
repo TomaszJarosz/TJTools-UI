@@ -1,0 +1,1 @@
+export const leftToolbarWidth = 240;
