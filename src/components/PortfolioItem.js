@@ -1,13 +1,13 @@
 import React from 'react';
 
-const PortfolioItem = ({ item }) => {
+const PortfolioItem = ({ item, asset }) => {
     return (
         <tr>
-            <td>{item.name}</td>
-            <td>{item.ticker}</td>
+            <td>{asset.name}</td>
+            <td>{asset.ticker}</td>
             <td>{item.shares}</td>
-            <td>{item.purchase_price}</td>
-            <td>{item.purchase_date}</td>
+            <td>{item.purchasePrice}</td>
+            <td>{item.purchaseDate}</td>
         </tr>
     );
 };
