@@ -17,7 +17,7 @@ const TopHeader = () => {
             <Toolbar>
                 <Tabs value="one" aria-label="simple tabs example">
                     <Tab label="Tools" className={classes.typographyStyles} variant={'h4'} component={Link}
-                         to={"/shop"}/>
+                         to={"/tools"}/>
                     <Tab value="one" label="one" component={Link} to={"/one"}/>
                     <Tab value="two" label="two" component={Link} to={"/two"}/>
                     <Tab value="three" label="three" component={Link} to={"/three"}/>

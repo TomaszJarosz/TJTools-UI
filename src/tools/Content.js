@@ -1,6 +1,6 @@
 import * as React from 'react';
 import Box from '@mui/material/Box';
-import ShopBody from "./ShopBody";
+import Body from "./Body";
 
 const bodyStyle = {
     backgroundColor: (theme) =>
@@ -12,11 +12,11 @@ const bodyStyle = {
     overflow: 'auto',
 };
 
-export default function ShopContent() {
+export default function Content() {
     return (
         <Box sx={{display: 'flex'}}>
             <Box component="main" sx={bodyStyle}>
-                <ShopBody/>
+                <Body/>
             </Box>
         </Box>
     );

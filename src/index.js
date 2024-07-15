@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import ShopApp from "./ShopApp";
+import ToolsApp from "./ToolsApp";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
     <React.StrictMode>
-        <ShopApp />
+        <ToolsApp />
     </React.StrictMode>
 );

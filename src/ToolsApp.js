@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
 import {BrowserRouter, Route, Routes,} from "react-router-dom";
-import TopHeader from "./shop/header/TopHeader";
+import TopHeader from "./tools/header/TopHeader";
 import {QueryClient, QueryClientProvider} from "@tanstack/react-query";
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
 const queryClient = new QueryClient()
-function ShopApp() {
+function ToolsApp() {
     return (
         <QueryClientProvider client={queryClient}>
             <BrowserRouter>
@@ -17,4 +17,4 @@ function ShopApp() {
     );
 }
 
-export default ShopApp;
+export default ToolsApp;
